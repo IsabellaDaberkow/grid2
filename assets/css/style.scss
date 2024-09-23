@@ -1,0 +1,14 @@
+@import "reset";
+@import "vars";
+@import "layout";
+@import "grid";
+
+div {
+    border: 3px solid palevioletred;
+    box-sizing: border-box; // pra que a borda seja de dentro pra fora
+}
+h1 {
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+}
